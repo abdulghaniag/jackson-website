@@ -328,9 +328,53 @@ font-weight: lighter;
     padding-left: 120px;
     color: blue;
 }
-.photoborder{
+.rangesection{
+    /* border: 2px solid black; */
+    height: 250px;
+}
+.shop{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 80px;
+}
+.shoptext{
+    /* border: 2px solid rgb(255, 247, 0); */
+    display: flex;
+    height: 50px;
+    
+
     
 }
+.photo{
+    width: 50%;
+    /* background-color: #b8babc; */
+}
+.photo p{
+    margin-top: -30px;
+    color: #000;
+}
+.perc p{
+    margin-top: -30px;
+    color:blue;
+    margin-left: 80px;
+}
+.perc{
+    width: 50%;
+    /* background-color: #3e91f7; */
+}
+
+.shoprange{
+     width: 390px;
+    /* border: 2px solid rgb(255, 85, 0); */
+    
+
+}
+.firstrow{
+    /* background-color: #b8babc; */
+    display: flex;
+}
+
+
 </style>
 </head>
 <body>
@@ -532,7 +576,7 @@ font-weight: lighter;
 
 
 
-<div class="firstborder">
+<!-- <div class="firstborder">
 
 
 <div class="photoborder">
@@ -593,10 +637,97 @@ font-weight: lighter;
             <div class="borderb">
         <div class="bb1"></div>
         <div class="bb2"></div>
-            </div>
-        </div>
+        
+    </div>
+</div> -->
+
+
+
+
+
+
+
+<div class="rangesection">
+    <div class="firstrow">
+<div class="shop">
+<div class="shoptext">
+    <div class="photo"><p>Photoshop</p></div>
+    <div class="perc"><p>75%</p></div></div>
+<input type="range" id="vol" name="vol" min="1" max="100" value="75" class="shoprange">
+
+</div>
+
+
+
+<div class="shop">
+    <div class="shoptext">
+        <div class="photo"><p>JQuery</p></div>
+        <div class="perc"><p style="color: red; margin-left: 20px;">60%</p></div></div>
+    <input type="range" id="vol" name="vol" min="1" max="100" value="60" class="shoprange" >
+    
+    </div>
+</div>
+
+
+<div class="firstrow">
+    <div class="shop">
+    <div class="shoptext">
+        <div class="photo"><p>Photoshop</p></div>
+        <div class="perc"><p style="color: rgb(134, 238, 59); margin-left:115px ; ">85%</p></div></div>
+    <input type="range" id="vol" name="vol" min="1" max="100" value="85" class="shoprange">
+    
+    </div>
+    
+    
+    
+    <div class="shop">
+        <div class="shoptext">
+            <div class="photo"><p>Photoshop</p></div>
+            <div class="perc"><p style="color: purple; margin-left: 130px;">90%</p></div></div>
+        <input type="range" id="vol" name="vol" min="1" max="100" value="90" class="shoprange">
         
         </div>
+    </div>
+
+
+
+    <div class="firstrow">
+        <div class="shop">
+        <div class="shoptext">
+            <div class="photo"><p>Photoshop</p></div>
+            <div class="perc"><p style="color: green; margin-left: 60px;">70%</p></div></div>
+        <input type="range" id="vol" name="vol" min="1" max="100" value="70" class="shoprange">
+        
+        </div>
+        
+        
+        
+        <div class="shop">
+            <div class="shoptext">
+                <div class="photo"><p>Photoshop</p></div>
+                <div class="perc"><p style="color: rgb(121, 62, 249); margin-left: 100px;">80%</p></div></div>
+            <input type="range" id="vol" name="vol" min="1" max="100" value="80" class="shoprange">
+            
+            </div>
+        </div>
+
+
+
+
+
+
+
+    
+
+
+</div>
+
+
+
+
+
+
+</div>
 </div>
 
 
@@ -606,7 +737,7 @@ font-weight: lighter;
 
 
 
-
+<!-- 
 <script>
     alert( "Please enter a\n FirstName")
     alert("Please enter a\n LastName")
@@ -618,7 +749,18 @@ var ans = firstname + lastname ;
 
 console.log(ans);
 
-</script>
+
+
+
+
+ var message;
+
+message = "HelloWorld";
+
+alert(message);
+
+
+</script> -->
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
